@@ -1,19 +1,25 @@
 {
   "prompts": {
     "name": {
-      "type": "string",
+      "type": "input",
       "required": true,
       "message": "Project name"
     },
     "description": {
-      "type": "string",
+      "type": "input",
       "required": false,
       "message": "Project description",
-      "default": "A Vue.js project"
+      "default": "A myExpress project"
     },
     "author": {
       "type": "string",
       "message": "Author"
+    }
+  },
+  "functions": {
+    "moogoose": {
+      "type": "confirm",
+      "message": "use moogoose?"
     }
   }
 }
