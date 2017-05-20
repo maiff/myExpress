@@ -27,7 +27,21 @@
           "type": "input",
           "required": true,
           "message": "mongodb url",
-          "default": "'mongodb://127.0.0.1:12345/test"
+          "default": "mongodb://127.0.0.1:12345/test"
+        }
+      }
+    },
+    "test": {
+      "type": "confirm",
+      "message": "use mongoose?",
+      "filterFile": "./ttt",
+      "promptsFile": "./ttt/test.js",
+      "prompts": {
+        "test": {
+          "type": "input",
+          "required": true,
+          "message": "test test",
+          "default": "tttttt"
         }
       }
     }
