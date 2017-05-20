@@ -20,8 +20,8 @@
     "mongoose": {
       "type": "confirm",
       "message": "use mongoose?",
-      "filterFile": "./template/connect",
-      "promptsFile": "./template/connect/connect.js",
+      "filterFile": "./connect",
+      "promptsFile": "./connect/connect.js",
       "prompts": {
         "url": {
           "type": "input",

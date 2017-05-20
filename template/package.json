@@ -16,7 +16,7 @@
     "superagent": "^3.5.2",
     "supertest": "^3.0.0",
     {{#if mongoose}}
-    "mongoose": "^4.7.6",
+    "mongoose": "^4.7.6"
     {{/if}}
   }
 }
