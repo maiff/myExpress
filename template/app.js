@@ -1,4 +1,4 @@
-const MyExpress = require('./lib/MyExpress')
+const MyExpress = require('./lib/myExpress')
 
 const port = 30002
 
