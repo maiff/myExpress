@@ -17,9 +17,18 @@
     }
   },
   "functions": {
-    "moogoose": {
+    "mongoose": {
       "type": "confirm",
-      "message": "use moogoose?"
+      "message": "use mongoose?",
+      "filterFile": "./template/connect",
+      "prompts": {
+        "url": {
+          "type": "input",
+          "required": true,
+          "message": "mongodb url",
+          "default": "'mongodb://127.0.0.1:12345/test"
+        }
+      }
     }
   }
 }
